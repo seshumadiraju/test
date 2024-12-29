@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply font-poppins;
+}
+
+.nav-link {
+  @apply text-grays-600 hover:text-primary-500 py-3 px-4 md:py-1 rounded-md mx-1;
+}
+.active {
+  @apply text-primary-500 bg-primary-50;
+}
+
+select {
+  position: relative;
+}
+select::after {
+  content: " ";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: blue;
+  position: absolute;
+  z-index: 99;
+}
+select option:hover {
+  @apply bg-primary-700 text-white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  cursor: pointer;
+  display: none !important;
+}
+/* 
+.swiper-button-next {
+  right: 20px;
+}
+
+.swiper-button-prev {
+  left: 20px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.swiper-button-next::after {
+  content: ">";
+}
+
+.swiper-button-prev::after {
+  content: "<";
+} */
