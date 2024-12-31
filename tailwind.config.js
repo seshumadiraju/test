@@ -14,7 +14,7 @@ export default {
           200: "#9999ff",
           300: "#6666ff",
           400: "#3333ff",
-          500: "#0000ff", // Base color (default)
+          500: "#0054e5", // Base color (default)
           600: "#0000cc",
           700: "#000099",
           800: "#000066",
