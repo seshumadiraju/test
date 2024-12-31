@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <div className="header-main py-6 md:py-12 px-6">
       <div className="container mx-auto max-w-[1240px] px-0 sm:px-6 lg:px-8">
-        <h1 className="text-[32px] font-semibold leading-tight text-white">
+        <h1 className="text-[35px] font-semibold leading-tight text-white">
           Secure Your Ideas, Protect Your Marks, Stand by Your Rights, and
           Design Your Future Identity.
         </h1>
