@@ -21,7 +21,8 @@ const Header = () => {
     <div className="header-main py-6 md:py-12 px-6">
       <div className="container mx-auto max-w-[1240px] px-0 sm:px-6 lg:px-8">
         <h1 className="text-[42px] font-semibold leading-tight text-grays-700">
-          File Your Intellectual Property.
+          Secure Your Ideas, Protect Your Marks, File Your Intellectual
+          Property.
         </h1>
 
         <div className="flex flex-col gap-4 mt-7 md:mt-10">
