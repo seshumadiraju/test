@@ -29,7 +29,7 @@ const Header = () => {
           <select
             onChange={handleSelectChange} // Update state when selection changes
             value={selectedOption}
-            className="w-full md:w-80 md:max-w-80 rounded-md px-3 py-3 text-gray-800 boarder-grays-300"
+            className="w-full md:w-80 md:max-w-80 rounded-md px-3 py-3 text-gray-800 border-grays-300"
           >
             <option value="">Select an option</option>
             <option value="patent-filing-prosecution">
