@@ -18,6 +18,7 @@
 select {
   position: relative;
   border: solid red 2px;
+  height: 48px;
 }
 select::after {
   content: " ";
