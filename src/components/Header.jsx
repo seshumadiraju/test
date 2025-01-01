@@ -21,8 +21,7 @@ const Header = () => {
     <div className="header-main py-6 md:py-12 px-6">
       <div className="container mx-auto max-w-[1240px] px-0 sm:px-6 lg:px-8">
         <h1 className="text-[42px] font-semibold leading-tight text-grays-700">
-          Secure Your Ideas, Protect Your Marks, Stand by Your Rights, and
-          Design Your Future Identity.
+          File Your Intellectual Property.
         </h1>
 
         <div className="flex flex-col gap-4 mt-7 md:mt-10">
@@ -58,7 +57,7 @@ const Header = () => {
           </select>
           <button
             onClick={handleButtonClick} // Handle redirection on button click
-            className="rounded-md bg-primary-500 px-4 py-3 font-semibold"
+            className="rounded-md bg-primary-500 px-4 py-3 font-semibold text-white"
           >
             ACT NOW
           </button>
