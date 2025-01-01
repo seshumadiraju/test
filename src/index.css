@@ -17,6 +17,7 @@
 
 select {
   position: relative;
+  -webkit-border: solid red 2px;
 }
 select::after {
   content: " ";
