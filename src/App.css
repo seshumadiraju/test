@@ -1,4 +1,4 @@
 .header-main {
   /*background: url(./assets/header-bg.jpg) no-repeat bottom center #0000ff;*/
-  @apply bg-primary-50;
+  @apply bg-blue-50;
 }
