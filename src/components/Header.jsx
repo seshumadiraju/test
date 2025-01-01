@@ -29,7 +29,7 @@ const Header = () => {
           <select
             onChange={handleSelectChange} // Update state when selection changes
             value={selectedOption}
-            className="w-full md:w-80 md:max-w-80 rounded-md px-3 py-3 text-gray-800"
+            className="w-full md:w-80 md:max-w-80 rounded-md px-3 py-3 text-gray-800 boarder-grays-300"
           >
             <option value="">Select an option</option>
             <option value="patent-filing-prosecution">
@@ -58,7 +58,7 @@ const Header = () => {
           </select>
           <button
             onClick={handleButtonClick} // Handle redirection on button click
-            className="rounded-md bg-yellow-400 px-4 py-3 font-semibold"
+            className="rounded-md bg-primary-500 px-4 py-3 font-semibold"
           >
             ACT NOW
           </button>
